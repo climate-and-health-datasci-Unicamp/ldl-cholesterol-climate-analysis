@@ -39,14 +39,14 @@ English version of the abstract.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this context, this study aimed to analyse the impact of cold waves on LDL-C concentrations of patients who sought medical care at basic health units (UBS) in the city of Campinas-SP, from 2008 to 2018, comprising an 11-year time series. Additionally, we modelled historical weather data and used climate models to predict the occurrences of cold waves in the future.
 
 
-## Research Question
+# Research Question
 **Question:** Does cold waves increase LDL-C levels?
 
 **Null Hypothesis:** Cold waves do not increases LDL-C levels.
 
 **Hypothesis:** Cold waves increases LDL-C levels.
 
-## Objective
+# Objective
 To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018.
 
 # Recursos e Métodos
