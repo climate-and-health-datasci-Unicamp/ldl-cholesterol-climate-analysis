@@ -53,15 +53,18 @@ To assess the impact of cold waves on LDL-C concentrations in patients who sough
 
 ## Bases de Dados
 `<Elencar bases de dados utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
-Base de Dados | Endereço na Web | Resumo descritivo e uso
+Database | Web Address | Description and Usage
 ----- | ----- | -----
-Base 1 | http://base1.org/ | `<Descrição da Base 1 e para que ela foi usada no projeto.>`
-Base 2 | http://base2.org/ | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+Campinas Municipal Laboratory | https://bit.ly/CML-database | `<Descrição da Base 1 e para que ela foi usada no projeto.>`
+Agronomic Institute of Campinas | https://bit.ly/cold_wave_IAC | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+Projections from ETA | https://bit.ly/ETA_TMIN | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+Projections from ETA | https://bit.ly/ETA_TMAX | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
 
 ## Ferramentas
 
 `<Elencar ferramentas utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
-Ferramenta | Endereço na Web | Resumo descritivo e uso
+Tool | Web Address | Description and Usage
 ----- | ----- | -----
 Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
 Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
@@ -100,23 +103,8 @@ Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para qu
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the second method, we computed cold waves using daily temperature data obtained from the ETA climate model. Cold wave metrics of quantity (CWN - number of cold wave events per year), duration (CWD - longest duration in days of cold waves per year) and frequency (CWF - number of days under cold waves per year) were generated considering historical data (2008 - 2018) and projections (2019 - 2050).
 
-~~~
 
-## Detalhamento do Projeto
-~~~
-<Apresente aqui detalhes da análise. Nesta seção ou na seção de Resultados podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
-
-Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.>
-~~~
-
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
-~~~
-
-## Evolução do Projeto
+# Evolução do Projeto
 ~~~
 <Relate a evolução do projeto: possíveis problemas enfrentados e possíveis mudanças de trajetória. Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.>
 ~~~
