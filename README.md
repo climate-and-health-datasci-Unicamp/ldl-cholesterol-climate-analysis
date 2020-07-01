@@ -21,15 +21,31 @@ English version of the abstract.
 # Vídeo do Projeto
 [vídeo no youtube](youtube.com)
 
-# Introdução e Motivação
-~~~
-<Descrição do tema do projeto, incluindo motivação, contexto gerador e caracterização do problema. A introdução também pode apresentar iniciativas correlatas para lidar com o problema (não obrigatório) e deve introduzir de forma mais detalhada que o resumo a solução proposta e resultados alcançados. Aqui também são apresentadas as seções do projeto.>
-~~~
+# Introduction
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The reports of the Brazilian Panel on Climate Change (PBMC) and the Intergovernmental Panel on Climate Change (IPCC) were unanimous in revealing that South America and Brazil already have records of climate change predicted in climate models (1) and highlight that the changes associated with global warming can alter the frequency, intensity, duration and timing of extreme events, resulting in extreme environmental conditions, even never seen before (2). The World Health Organization (WHO) concluded that these climate changes should cause approximately 250,000 additional deaths per year between 2030 and 2050 (3). 
 
-## Perguntas de Pesquisa
-~~~
-<Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.>
-~~~
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The World Health Organization (WHO) concluded that climate change is expected to cause approximately 250,000 additional deaths per year between 2030 and 2050 (3). Studies show that the impacts of climate change are disproportionately affecting the health of populations, and especially of the vulnerable population (4). 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cardiovascular diseases (CVD) are drastically affected by environmental changes, and this makes it extremely important to understand how and what are the components of the environment that increase cardiovascular risk (5,6).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classified as the leading cause of death in the world, CVDs represent almost 32% of all causes of death in women and 27% in men (7). Low temperature-related mortality places a major burden on public health spending (8) and cardiovascular events, such as acute myocardial infarction (AMI) and stroke, present a seasonal pattern, with higher rates in winter than in other seasons (9,10). In the northern and southern hemispheres, cholesterol concentrations of low-density lipoprotein (LDL-C), also popularly known as “bad cholesterol” are slightly higher in winter when compared to other seasons (11,12) and plasma lipids and lipoproteins are essential components in the pathogenesis and progression of atherosclerosis (a chronic inflammatory disease that affects the wall of large and medium-sized arteries, characterized by a long asymptomatic phase (which can last for decades) resulting from the accumulation of lipids), especially those situations of increased LDL-C (13).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The formation of atherosclerotic plaque begins with the aggression to the vascular endothelium by several risk factors, such as dyslipidemia (increased or reduced concentrations of lipids or lipoproteins), hypertension or smoking. As a consequence, endothelial dysfunction increases the permeability of the intima layer to plasma lipoproteins, favoring their retention in the subendothelial space. Retained, the LDL particles undergo oxidation, causing the exposure of several neoepitopes, making them immunogenic. The deposition of lipoproteins in the arterial wall, a key process at the beginning of atherogenesis, occurs in proportion to the concentration of these lipoproteins in the plasma (13).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Even in patients at low risk for cardiovascular disease, studies suggest that LDL-C at concentrations above the reference value (≥160 mg/dL) is associated with a 50% increase in the relative risk of CVD mortality (14), large clinical trials indicate that the reduction of LDL-C by 1 mmol/L (± 39 mg/dL) would reduce the risk for some cardiovascular outcomes by 22% (15) and that the 20 °C variation in air temperature may result in a change of about 20% in plasma lipid levels (16).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In a scenario where the effects of climate change and the frequency of extreme events make it more evident and intense, there is an urgent need to investigate and develop analytical tools and predictive models that reveal their effects on human health, as well as being able to provide information accessible to health professionals and public health policymakers, which can be used as indicators to define strategies for the perception of the problem by society and for the implementation of actions to prevent and mitigate its pathological effects.	
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this context, this study aimed to analyse the impact of cold waves on LDL-C concentrations of patients who sought medical care at basic health units (UBS) in the city of Campinas-SP, from 2008 to 2018, comprising an 11-year time series. Additionally, we modelled historical weather data and used climate models to predict the occurrences of cold waves in the future.
+
+
+## Research Question
+**Question:** Does cold waves increase LDL-C levels?
+
+**Hypotesis:** Cold waves do not increases LDL-C levels
+
+**Hypotesis:** Cold waves increases LDL-C levels  
+ondas de frio resultam em um aumento da concentração do colesterol de baixa densidade
 
 ## Objetivos do projeto
 ~~~
