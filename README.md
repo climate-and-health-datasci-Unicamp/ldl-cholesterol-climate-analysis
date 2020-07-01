@@ -49,10 +49,10 @@ English version of the abstract.
 # Objective
 To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018.
 
-# Recursos e Métodos
+# Resources
 
-## Bases de Dados
-`<Elencar bases de dados utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
+## Database
+
 Database | Web Address | Description and Usage
 ----- | ----- | -----
 Campinas Municipal Laboratory | https://bit.ly/CML-database | `<Descrição da Base 1 e para que ela foi usada no projeto.>`
@@ -61,13 +61,12 @@ Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | `<Descrição d
 Projections from ETA | https://bit.ly/ETA_TMIN | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
 Projections from ETA | https://bit.ly/ETA_TMAX | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
 
-## Ferramentas
+## Tools
 
-`<Elencar ferramentas utilizadas no projeto preferencialmente no formato da tabela a seguir.>`
 Tool | Web Address | Description and Usage
 ----- | ----- | -----
-Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
-Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
+Google Colab | https://colab.research.google.com | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
+
 
 # Material and Methods
 ## 2.1 - Database
