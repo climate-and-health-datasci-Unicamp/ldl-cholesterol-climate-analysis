@@ -42,15 +42,12 @@ English version of the abstract.
 ## Research Question
 **Question:** Does cold waves increase LDL-C levels?
 
-**Hypotesis:** Cold waves do not increases LDL-C levels
+**Null Hypothesis:** Cold waves do not increases LDL-C levels.
 
-**Hypotesis:** Cold waves increases LDL-C levels  
-ondas de frio resultam em um aumento da concentração do colesterol de baixa densidade
+**Hypothesis:** Cold waves increases LDL-C levels.
 
-## Objetivos do projeto
-~~~
-<Como seu projeto propôs abordar o problema apresentado.>
-~~~
+## Objective
+To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018.
 
 # Recursos e Métodos
 
@@ -69,9 +66,40 @@ Ferramenta | Endereço na Web | Resumo descritivo e uso
 Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
 Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
 
-# Metodologia
-~~~
-<Abordagem/metodologia adotada, incluindo especificação de quais técnicas foram exploradas, tais como: aprendizagem de máquina, análise de redes, análise estatística, ou integração de uma ou mais técnicas.>
+# MATERIAL AND METHODS
+## 2.1 - Database
+### 2.1.1 - Biological data 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDL-C concentrations data from the Campinas Municipal Laboratory of Clinical Pathology (LMC-Campinas) between the years 2008 to 2018, where laboratory tests are performed on individuals seen at 63 basic health units in Campinas.
+
+### 2.1.2 - Weather data
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The database used in this work consisted of daily minimum (Tmin) and maximum temperatures (Tmax) from the weather station of the Agronomic Institute of Campinas (located at latitude 22°52’ S and longitude 47°4’ W) from 1989 to 2018. First, to estimate the impact of cold waves on LDL-C concentrations, data from the period of 2000 - 2018 was used. Further, the whole period was used to forecast the temperature time series.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Tmax and Tmin projections for the period of 2018 - 2050 (Latitude: 22°51' S, Longitude: 47°3' W) were obtained from the regionalized ETA climate model available on the [PROJETA platform] (https://projeta.cptec.inpe.br/) for the climatic scenario: 05 km, RCP4.5, sudesteD2-BR, HADGEM2-ES.
+
+## 2.2 - Cold waves definition
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles. We calculated the percentiles (P10-Tmin and P10-max) for each day using the historical time series from 1961 to 1990 and a time window of 15 days, centered in the day of interest. For example, to calculate the P10-Tmin for 08/01 we used a time window from 01/01 to 15/01, for all 30 years in the historical series. In this case we had 450 minimum temperatures for percentile calculation (see [suppl.](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/references/How_do_we_calculate_thermal_waves.docx?raw=true)).
+
+## 2.3 - Stratification
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Patients were stratified into different age groups: young (<20 years old), adults (20 - 65 years old), Elderly (>65 years old), Male and Female.
+
+## 2.4 - Statistical analysis 	
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We separated the data into two groups: days under influence of a cold wave and control days. Control days were defined as the ones without influence of hot or cold waves. We used a density probability plot to analyse the percentage of exams with LDL-C above reference level. We applied the Mann Whitney U test, a nonparametric test, to compare these groups because our data distribution was not normal. We also compared the control group with stratified LDL-C results collected k days after a cold spell, with k ranging from 0 to 10, in order to analyse retarded effects of the cold wave.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All analysis were done using Python and the libraries scipy, numpy, pandas, matplotlib and statsmodels.
+
+## 2.5 - Cold waves forecasting
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to estimate the occurrences of cold waves in the future, we applied two different approaches: (1) use of historical data from IAC weather station to model future climate data; (2) use of data from the ETA regionalized model for geographic coordinates near IAC.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the first method, we divided the data in training (1989 to 2013) and test datasets (2014 - 2018) and converted into weekly aggregation. Seasonal ARIMA (Auto-Regressive Integrated Moving Average) was applied to the training set, using the AIC criterion to choose the best model and selecting a period of 52 weeks to account for data yearly seasonality. After the implementation of the model for both maximum and minimum temperatures, we calculated the error between the original data and the test set and estimated the daily temperatures for the next 10 years (2019 to 2028). Using the predicted temperatures, we applied the algorithm for detection of cold waves. Noise was also added to the model to make it more realistic.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the second method, we computed cold waves using daily temperature data obtained from the ETA climate model. Cold wave metrics of quantity (CWN - number of cold wave events per year), duration (CWD - longest duration in days of cold waves per year) and frequency (CWF - number of days under cold waves per year) were generated considering historical data (2008 - 2018) and projections (2019 - 2050).
+
 ~~~
 
 ## Detalhamento do Projeto
