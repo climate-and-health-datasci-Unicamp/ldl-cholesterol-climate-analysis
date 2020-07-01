@@ -18,8 +18,8 @@ English version of the abstract.
 * [Welington Corozolla](https://www.linkedin.com/in/welington-corozolla-7b820b92/) - 188894
 
 
-# Vídeo do Projeto
-[vídeo no youtube](youtube.com)
+# Project Video
+[Project proposal video](https://drive.google.com/file/d/16P_fglul0e5NVvD1JWwW9koR-nYbb1sx/view)
 
 # Introduction
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The reports of the Brazilian Panel on Climate Change (PBMC) and the Intergovernmental Panel on Climate Change (IPCC) were unanimous in revealing that South America and Brazil already have records of climate change predicted in climate models (1) and highlight that the changes associated with global warming can alter the frequency, intensity, duration and timing of extreme events, resulting in extreme environmental conditions, even never seen before (2). The World Health Organization (WHO) concluded that these climate changes should cause approximately 250,000 additional deaths per year between 2030 and 2050 (3). 
@@ -66,7 +66,7 @@ Ferramenta | Endereço na Web | Resumo descritivo e uso
 Ferramenta 1 | http://ferramenta1.org/ | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
 Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para que ela foi usada no projeto.>`
 
-# MATERIAL AND METHODS
+# Material and Methods
 ## 2.1 - Database
 ### 2.1.1 - Biological data 
 
@@ -76,11 +76,11 @@ Ferramenta 2 | http://ferramenta2.org/ | `<Descrição da Ferramenta 2 e para qu
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The database used in this work consisted of daily minimum (Tmin) and maximum temperatures (Tmax) from the weather station of the Agronomic Institute of Campinas (located at latitude 22°52’ S and longitude 47°4’ W) from 1989 to 2018. First, to estimate the impact of cold waves on LDL-C concentrations, data from the period of 2000 - 2018 was used. Further, the whole period was used to forecast the temperature time series.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Tmax and Tmin projections for the period of 2018 - 2050 (Latitude: 22°51' S, Longitude: 47°3' W) were obtained from the regionalized ETA climate model available on the [PROJETA platform] (https://projeta.cptec.inpe.br/) for the climatic scenario: 05 km, RCP4.5, sudesteD2-BR, HADGEM2-ES.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Tmax and Tmin projections for the period of 2018 - 2050 (Latitude: 22°51' S, Longitude: 47°3' W) were obtained from the regionalized ETA climate model available on the [PROJETA platform](https://projeta.cptec.inpe.br/) for the climatic scenario: 05 km, RCP4.5, sudesteD2-BR, HADGEM2-ES.
 
 ## 2.2 - Cold waves definition
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles. We calculated the percentiles (P10-Tmin and P10-max) for each day using the historical time series from 1961 to 1990 and a time window of 15 days, centered in the day of interest. For example, to calculate the P10-Tmin for 08/01 we used a time window from 01/01 to 15/01, for all 30 years in the historical series. In this case we had 450 minimum temperatures for percentile calculation (see [suppl.](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/references/How_do_we_calculate_thermal_waves.docx?raw=true)).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles. We calculated the percentiles (P10-Tmin and P10-max) for each day using the historical time series from 1961 to 1990 and a time window of 15 days, centered in the day of interest. For example, to calculate the P10-Tmin for 08/01 we used a time window from 01/01 to 15/01, for all 30 years in the historical series (see [suppl.](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/references/How_do_we_calculate_thermal_waves.docx?raw=true)).
 
 ## 2.3 - Stratification
   
