@@ -80,7 +80,7 @@ Google Colab | https://colab.research.google.com | Jupyter notebooks environment
 
 ### Weather data
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The database used in this work consisted of daily minimum (Tmin) and maximum temperatures (Tmax) from the weather station of the Agronomic Institute of Campinas (located at latitude 22°52’ S and longitude 47°4’ W) from 1961 to 2018. First, to estimate the impact of cold waves on LDL-C concentrations, data from the period of 2000 - 2018 was used. Further, the whole period was used to forecast the temperature time series.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The database used in this work consisted of daily minimum (Tmin) and maximum temperatures (Tmax) from the weather station of the Agronomic Institute of Campinas (located at latitude 22°52’ S and longitude 47°4’ W) from 1961 to 2018. First, to estimate the impact of cold waves on LDL-C concentrations, data from the period of 2008 to 2018 was used. Further, the period of 1989 to 2018 was used to forecast the temperature time series. The detection of cold waves was based on the data from 1961 - 1990 (climatological normal).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Tmax and Tmin projections for the period of 2018 - 2050 (Latitude: 22°51' S, Longitude: 47°3' W) were obtained from the regionalized ETA climate model available on the [PROJETA platform](https://projeta.cptec.inpe.br/) for the climatic scenario: 05 km, RCP4.5, sudesteD2-BR, HADGEM2-ES.
 
@@ -102,7 +102,7 @@ Google Colab | https://colab.research.google.com | Jupyter notebooks environment
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to estimate the occurrences of cold waves in the future, we applied two different approaches: (1) use of historical data from IAC weather station to model future climate data; (2) use of data from the ETA regionalized model for geographic coordinates near IAC.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the first method, we divided the data in training (1989 to 2013) and test datasets (2014 - 2018) and converted into weekly aggregation. Seasonal ARIMA (Auto-Regressive Integrated Moving Average) was applied to the training set, using the AIC criterion to choose the best model and selecting a period of 52 weeks to account for data yearly seasonality. After the implementation of the model for both maximum and minimum temperatures, we calculated the error between the original data and the test set and estimated the daily temperatures for the next 10 years (2019 to 2028). Using the predicted temperatures, we applied the algorithm for detection of cold waves. Noise was also added to the model to make it more realistic.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the first method, we divided the data in training (1989 to 2013) and test datasets (2014 - 2018) and converted it into weekly aggregation. Seasonal ARIMA (Auto-Regressive Integrated Moving Average) was applied to the training set, using the Akaike information criterion (AIC) to choose the best model and selecting a period of 52 weeks to account for data yearly seasonality. After the implementation of the model for both maximum and minimum temperatures, we calculated the error between the original data and the test set and estimated the daily temperatures for the next 10 years (2019 to 2028). Using the predicted temperatures, we applied the algorithm for detection of cold waves. Noise was also added to the model to make it more realistic.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the second method, we computed cold waves using daily temperature data obtained from the ETA climate model. Cold wave metrics of quantity (CWN - number of cold wave events per year), duration (CWD - longest duration in days of cold waves per year) and frequency (CWF - number of days under cold waves per year) were generated considering historical data (2008 - 2018) and projections (2019 - 2050).
 
@@ -157,8 +157,13 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 ### Modeling historical data from IAC
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After converting training (1989 - 2013) and test (2014 - 2018) datasets of daily temperatures (maximum and minimum) into weekly aggregation, we performed a search using ‘auto-arima’ function in Python and selected the parameters for our model according to the best (smaller) AIC. A SARIMA model has seven hyper-parameters, three are trend parameters (p, d, q) and four are seasonal parameters (P, D, Q, S). The S was chosen according to the yearly seasonality of our data (S = 52 weeks). Two models were generated, one for Tmax and another for Tmin, and the search resulted in the same parameters for both models: (1,1,1)x(0,1,1,52).  After implementing the model, we found AIC for Tmax equal to 5252 and for Tmin equal to 4266. When the model predictions were compared to the test dataset we found mean squared errors of 2.52  and 1.72, respectively, for Tmax and Tmin.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Further, we used the generated models to estimate the daily temperatures for the next 10 years (2019 to 2028), using interpolation to convert data back to daily. With the predicted temperatures, we applied the algorithm for detection of cold waves using the climatological normal of 1961 - 1990 which resulted in no cold waves because our model did not consider the data residues. Due to this problem, we decided to add a random noise to the data, to check if we could detect cold waves. The noise was estimated from the data and added to the temperature time series. After that, the computation of cold waves was successful.
+
 
 ### ETA regionalized model
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After computation of cold waves using the projections of daily temperature data obtained from ETA regionalized climate (2019 - 2050), the annual cold wave metrics were calculated (CWN, CWD and CWF). Those metrics are presented in the following figures, along with the cold wave metrics from 2008 - 2018 in order to provide a comparison between those periods. Analysing the metrics, we can observe longer periods with an absence of cold waves (12 years, 2017 - 2028 and 8 years, 2035 - 2042) in comparison to the beginning of the time series. There is also a reduction in the number of cold waves and in the total sum of days under cold waves along the years. The duration of cold waves is higher in the first years of the series (2010 and 2011) and then it becomes stable. In summary, our results show that in the future there might be a reduction in the frequency and the number of cold waves.
 
 ## Additional considerations
 
@@ -179,7 +184,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 # Conclusions
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves have an adverse influence on LDL-C concentrations in vulnerable groups, such as adult women, elderly men and elderly women. These findings can be used to alert health experts when making treatment decisions and diagnosing patients. Predicted cold waves found in our analyses may impact LDL-C concentrations in the future and, at the same time, cardiovascular risk.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves have an adverse influence on LDL-C concentrations in vulnerable groups, such as adult women, elderly men and elderly women. These findings can be used to alert health experts when making treatment decisions and diagnosing patients. Predicted cold waves found in our analyses may impact LDL-C concentrations in the future and, at the same time, cardiovascular risk. Being able to estimate the next occurrences of cold waves can help in the development of early warning systems.
 
 # Future research
 
