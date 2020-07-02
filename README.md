@@ -123,6 +123,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 ### Adults (20-65 years) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Significant difference was found only for lag 2. This indicates that the physiological response of the group had greater proportions two days after the beginning of the wave. The group under cold waves showed a higher number of people (3.32% more) with LDL-C concentrations above reference value, when compared to the control group.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We emphasize that only the female group presented a significant difference in our analysis, showing that they are more susceptible to cold waves. The possible mechanism behind these findings is related to the cardioprotective function of testosterone present in higher concentrations in male group. Testosterone levels are inversely correlated with LDL-C and recent epidemiological studies indicate that low serum testosterone levels are associated with more atherosclerotic and CVD events (18,19).
 
 | SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
