@@ -63,8 +63,7 @@ Projections from ETA | https://bit.ly/ETA_TMAX | `<Descrição da Base 2 e para 
 
 Tool | Web Address | Description and Usage
 ----- | ----- | -----
-Google Colab | https://colab.research.google.com | `<Descrição da Ferramenta 1 e para que ela foi usada no projeto.>`
-
+Google Colab | https://colab.research.google.com | Jupyter notebooks environment from google, used to write shared scripts
 
 # Material and Methods
 ## 2.1 - Database
@@ -100,12 +99,44 @@ Google Colab | https://colab.research.google.com | `<Descrição da Ferramenta 1
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For the second method, we computed cold waves using daily temperature data obtained from the ETA climate model. Cold wave metrics of quantity (CWN - number of cold wave events per year), duration (CWD - longest duration in days of cold waves per year) and frequency (CWF - number of days under cold waves per year) were generated considering historical data (2008 - 2018) and projections (2019 - 2050).
 
-# results and discussion
+# Results and Discussion
 ~~~
 <Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de detalhamento do projeto (o que for mais pertinente).
 
 A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?>
 ~~~
+## 3.1 Stratified statistical analysis
+
+The analysis can be found at the [notebook](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average.ipynb)
+
+### 3.1.1 - Young (<20 years)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclusively the female group showed significant differences for our analysis, being them on lags 2, 7 and 9. Intriguingly, the difference between the group on cold waves and the control showed peculiar results, suggesting that the group under cold waves has lower number of people with LDL-C concentrations above reference value when compared to the control group: -11.42%, -7.43% and -8.17% for lags 2, 7 and 9 respectively. Numerous mechanisms of lipid transport and metabolism may be involved. It is known that children and adolescents undergo considerable sex-specific changes during physical growth and sexual maturation and differ significantly between pubertal stages. This phase is marked by metabolic instability with large hormonal fluctuations in growth and sexual maturation, directly affecting lipid and lipoprotein concentrations (17). It is likely that this group is not influenced by thermal stress under cold waves, but there is nothing clear in the literature to corroborate these findings.
+
+### 3.1.2 - Adults (20-65 years) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Significant difference was found only for lag 2. This indicates that the physiological response of the group had greater proportions two days after the beginning of the wave. The group under cold waves showed a higher number of people (3.32% more) with LDL-C concentrations above reference value, when compared to the control group.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We emphasize that only the female group presented a significant difference in our analysis, showing that they are more susceptible to cold waves. The possible mechanism behind these findings is related to the cardioprotective function of testosterone present in higher concentrations in male group. Testosterone levels are inversely correlated with LDL-C and recent epidemiological studies indicate that low serum testosterone levels are associated with more atherosclerotic and CVD events (18,19).
+
+### 3.1.3 - Elderly (>65 years) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For females, significant difference, 9.27%, 7.39% and 4.06%, was found for lags 0, 2 and 7, respectively. These findings indicate that the physiological outcomes in response to thermal stress caused by the cold wave start simultaneously. It is worth mentioning that the physiological response continues to happen until the seventh day after the beginning of the cold wave. The male group exhibits significant difference only for lag 4.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By aging the deterioration of the organism damages several functions necessary for the survival and adaptation to the environment and its oscillations (20).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In addition to functional limitations, such as a decline in muscle strength, coordination and cognitive function due to illness, chronic illness or injury, changes in concentrations of growth hormone, adrenocorticotropic, thyroid-stimulating, dehydroepiandrosterone and aldosterone hormones occur; there is also loss of skeletal striated muscles that may reduce basal metabolic rate in men and women (21). Ovarian secretion of estrogen in women, and to a lesser extent, of androgen, decrease abruptly from the sixth decade of life; also, from the 75 years of age, serum concentrations of follicle stimulating hormone and luteinizing hormone gradually decline (21,22). For males, the testicular function gradually declines with increasing age, with reduction in concentrations of serum and total and free testosterone (21,23).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It should be emphasized that with advancing age, the metabolism reduces its plasticity and the ability to maintain homeostasis in response to climatic variations (24,25), calling attention and highlighting possible risk groups, the elderly women.
+
+## 3.2 Forecasting of Cold waves
+
+### 3.2.1 Modeling historical data from IAC
+
+### 3.2.2 ETA regionalized model
+
+## 3.3 - Additional considerations
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changes in lipid concentrations in the cold are often associated with the difference in energy intake from food in different seasons. However, this is a reductionist simplification, since the influence of dietary cholesterol on cholesterolemia is complex (24). Human beings produce cholesterol endogenously and about 25% of serum cholesterol comes from diet and the rest from cell biosynthesis (26–28).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Several mechanisms are involved in the differences in lipid concentration. Exposure to cold causes physiological changes, such as adaptive thermogenesis. This mechanism promotes energy dissipation in the form of heat by external stimuli, being involved in the energy balance and in the regulation of body temperature. In short, the energy generated in the mitochondria during the Krebs cycle gains an “alternative path”, preventing the generation of ATP (adenosine triphosphate) and allowing this energy to be dissipated in heat (29,30). This regulatory mechanism is extremely efficient, but it triggers high metabolic rates that can adversely modify lipid and lipoprotein concentrations, such as LDL-C (29).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The impact of cold waves on LDL-C can influence the increase in cardiovascular risk in colder months (12) and can also influence the treatment of patients who have been diagnosed with dyslipidemia close to periods that have cold waves, the patient can be classified as Normal or Pathological if his lipid profile is evaluated during a cold wave. This can cause additional costs to the Health System unnecessarily.
+
 
 # Project evolution
 
