@@ -161,8 +161,11 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After computation of cold waves using the projections of daily temperature data obtained from ETA regionalized climate (2019 - 2050), the annual cold wave metrics were calculated (CWN, CWD and CWF). Those metrics are presented in the following figures, along with the cold wave metrics from 2008 - 2018 in order to provide a comparison between those periods. Analysing the metrics, we can observe longer periods with an absence of cold waves (12 years, 2017 - 2028 and 8 years, 2035 - 2042) in comparison to the beginning of the time series. There is also a reduction in the number of cold waves and in the total sum of days under cold waves along the years. The duration of cold waves is higher in the first years of the series (2010 and 2011) and then it becomes stable. In summary, our results show that in the future there might be a reduction in the frequency and the number of cold waves.
 
-![image](https://drive.google.com/uc?export=view&id=18Pc7f_mWk0f_UI9VsBPCpp11hQAcpDtx)
 
+![Alt text](reports/figures/CWF.png?raw=true)
+
+
+![Alt text](reports/figures/CWN.png?raw=true)
 
 ## Additional considerations
 
