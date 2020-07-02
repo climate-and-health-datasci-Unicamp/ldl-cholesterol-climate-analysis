@@ -258,15 +258,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 34.	Lyra, A., Tavares, P., Chou, S.C., Sueiro, G., Dereczynski, C.P., Sondermann, M., Silva, A., Marengo, J., Giarolla, A. 2017. Climate change projections over three metropolitan regions in Southeast Brazil using the non-hydrostatic Eta regional climate model at 5-km resolution Theor Appl Climatol. doi:10.1007/s00704-017-2067-z. https://link.springer.com/article/10.1007/s00704-017-2067-z
 
-35.	Terceira Comunicação Nacional do Brasil à Convenção-Quadro das Nações Unidas sobre Mudança do Clima
-
-Executive Summary: http://unfccc.int/resource/docs/natc/branc3es.pdf
-
-Volume 1: http://unfccc.int/resource/docs/natc/branc3v1.pdf
-
-Volume 2: http://unfccc.int/resource/docs/natc/branc3v2.pdf
-
-Volume 3: http://unfccc.int/resource/docs/natc/branc3v3.pdf
+35.	Terceira Comunicação Nacional do Brasil à Convenção-Quadro das Nações Unidas sobre Mudança do Clima Executive Summary: http://unfccc.int/resource/docs/natc/branc3es.pdf Volume 1: http://unfccc.int/resource/docs/natc/branc3v1.pdf  Volume 2: http://unfccc.int/resource/docs/natc/branc3v2.pdf  Volume 3: http://unfccc.int/resource/docs/natc/branc3v3.pdf
 
  
 
