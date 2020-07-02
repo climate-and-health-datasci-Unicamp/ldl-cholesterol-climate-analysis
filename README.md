@@ -111,7 +111,7 @@ We used a Python library to compute cold waves: [Extreme_Waves.py](https://drive
 
 ## Stratified statistical analysis
 
-The analysis can be found at the [03_LDL_above_average](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average.ipynb)
+The analysis can be found at the [03_LDL_above_average](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average.ipynb).
 
 ### Young (<20 years)
 
@@ -154,9 +154,9 @@ The analysis can be found at the [03_LDL_above_average](https://github.com/clima
 
 ### Modeling historical data from IAC
 
-Modeling can be found at the [Climate_modelling](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Climate_modelling.ipynb)
+Modeling can be found at the [Climate_modelling](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Climate_modelling.ipynb).
 
-Computation of cold waves can be found at [Future_ColdWaves](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Future_ColdWaves.ipynb)
+Computation of cold waves can be found at [Future_ColdWaves](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Future_ColdWaves.ipynb).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After converting training (1989 - 2013) and test (2014 - 2018) datasets of daily temperatures (maximum and minimum) into weekly aggregation, we performed a search using ‘auto-arima’ function in Python and selected the parameters for our model according to the best (smaller) AIC. A SARIMA model has seven hyper-parameters, three are trend parameters (p, d, q) and four are seasonal parameters (P, D, Q, S). The S was chosen according to the yearly seasonality of our data (S = 52 weeks). Two models were generated, one for Tmax and another for Tmin, and the search resulted in the same parameters for both models: (1,1,1)x(0,1,1,52).  After implementing the model, we found AIC for Tmax equal to 5252 and for Tmin equal to 4266. When the model predictions were compared to the test dataset we found mean squared errors of 2.52  and 1.72, respectively, for Tmax and Tmin.
 
@@ -165,7 +165,7 @@ Computation of cold waves can be found at [Future_ColdWaves](https://github.com/
 
 ### ETA regionalized model
 
-Data processing of ETA model and computation of cold waves can be found at [Future_ColdWaves](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Future_ColdWaves.ipynb)
+Data processing of ETA model and computation of cold waves can be found at [Future_ColdWaves](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/models/Future_ColdWaves.ipynb).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After computation of cold waves using the projections of daily temperature data obtained from ETA regionalized climate (2019 - 2050), the annual cold wave metrics were calculated (CWN, CWD and CWF). Those metrics are presented in the following figures, along with the cold wave metrics from 2008 - 2018 in order to provide a comparison between those periods. Analysing the metrics, we can observe longer periods with an absence of cold waves (12 years, 2017 - 2028 and 8 years, 2035 - 2042) in comparison to the beginning of the time series. There is also a reduction in the number of cold waves and in the total sum of days under cold waves along the years. The duration of cold waves is higher in the first years of the series (2010 and 2011) and then it becomes stable. In summary, our results show that in the future there might be a reduction in the frequency and the number of cold waves.
 
