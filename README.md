@@ -54,7 +54,7 @@ To assess the impact of cold waves on LDL-C concentrations in patients who sough
 
 Database | Web Address | Description and Usage
 ----- | ----- | -----
-Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations data from LMC-Campinas
+Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations from LMC-Campinas
 Agronomic Institute of Campinas | https://bit.ly/cold_wave_IAC | Database with cold waves using IAC data
 Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | Database with heat waves using IAC data
 Projections from ETA | https://bit.ly/ETA_TMIN | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
