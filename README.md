@@ -1,10 +1,10 @@
 # How cold waves influence ldl cholesterol levels?
+# Como ondas de frio influenciam os níveis de colesterol ldl?
+
 
 # Abstract 
 
 **Introduction:** Cardiovascular diseases (CVD) are drastically affected by environmental changes, and this makes it extremely important to understand how its deleterious health effects happen and identify possible vulnerable populations. Higher concentrations of low-density lipoprotein (LDL-C) are found in periods of lower temperatures, and this acts directly in the formation of atherosclerotic plaques. **Objectives:** To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018. Our secondary aim was to predict future cold waves. **Methods:** Results of LDL-C exams, from the Campinas Municipal Laboratory and data of minimum and maximum air temperature (°C) were evaluated. Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles, considering temperature data from 1961 to 1990. The data were stratified into sex and age groups. We separated the data into cold wave and control days and compared LDL-C levels above reference value (LARV) using Mann-Whitney U and probability density plots. We also compared the control group with lags from 0 to 10 to analyse retarded effects of the cold wave. Regarding the prediction of cold waves, we modelled historical weather data using an auto-regressive model and used a regional climate model (ETA)  to predict the occurrences of cold waves in the future. **Results:** In the evaluated period, 9 cold waves were found, which impacted an increase of 3.32% more people with LARV in the group of adult women for lag 2, 9.27% for elderly women in lag 0  and 11.45% for elderly men in lag 4.  Prediction of cold waves using historical data is computationally expensive and inaccurate if time series residues are not considered. Use of a regionalized climate model showed better results. Conclusion: These analyses point to the influence of cold waves on LDL-C concentrations in adult women and also in elderly men and women. Cold waves tend to be less frequent in the future.
-
-# Como ondas de frio influenciam os níveis de colesterol ldl?
 
 # Resumo
 
@@ -54,7 +54,7 @@ To assess the impact of cold waves on LDL-C concentrations in patients who sough
 
 Database | Web Address | Description and Usage
 ----- | ----- | -----
-Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations from LMC-Campinas
+Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations data from LMC-Campinas
 Agronomic Institute of Campinas | https://bit.ly/cold_wave_IAC | Database with cold waves using IAC data
 Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | Database with heat waves using IAC data
 Projections from ETA | https://bit.ly/ETA_TMIN | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
@@ -67,32 +67,32 @@ Tool | Web Address | Description and Usage
 Google Colab | https://colab.research.google.com | Jupyter notebooks environment from google, used to write shared scripts
 
 # Material and Methods
-## 2.1 - Database
-### 2.1.1 - Biological data 
+## Database
+### Biological data 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDL-C concentrations data from the Campinas Municipal Laboratory of Clinical Pathology (LMC-Campinas) between the years 2008 to 2018, where laboratory tests are performed on individuals seen at 63 basic health units in Campinas.
 
-### 2.1.2 - Weather data
+### Weather data
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The database used in this work consisted of daily minimum (Tmin) and maximum temperatures (Tmax) from the weather station of the Agronomic Institute of Campinas (located at latitude 22°52’ S and longitude 47°4’ W) from 1989 to 2018. First, to estimate the impact of cold waves on LDL-C concentrations, data from the period of 2000 - 2018 was used. Further, the whole period was used to forecast the temperature time series.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Tmax and Tmin projections for the period of 2018 - 2050 (Latitude: 22°51' S, Longitude: 47°3' W) were obtained from the regionalized ETA climate model available on the [PROJETA platform](https://projeta.cptec.inpe.br/) for the climatic scenario: 05 km, RCP4.5, sudesteD2-BR, HADGEM2-ES.
 
-## 2.2 - Cold waves definition
+## Cold waves definition
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles. We calculated the percentiles (P10-Tmin and P10-max) for each day using the historical time series from 1961 to 1990 and a time window of 15 days, centered in the day of interest. For example, to calculate the P10-Tmin for 08/01 we used a time window from 01/01 to 15/01, for all 30 years in the historical series (see [suppl.](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/references/How_do_we_calculate_thermal_waves.docx?raw=true)).
 
-## 2.3 - Stratification
+## Stratification
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Patients were stratified into different age groups: young (<20 years old), adults (20 - 65 years old), Elderly (>65 years old), Male and Female.
 
-## 2.4 - Statistical analysis 	
+## Statistical analysis 	
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We separated the data into two groups: days under influence of a cold wave and control days. Control days were defined as the ones without influence of hot or cold waves. We used a density probability plot to analyse the percentage of exams with LDL-C above reference level. We applied the Mann Whitney U test, a nonparametric test, to compare these groups because our data distribution was not normal. We also compared the control group with stratified LDL-C results collected k days after a cold spell, with k ranging from 0 to 10, in order to analyse retarded effects of the cold wave.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All analysis were done using Python and the libraries scipy, numpy, pandas, matplotlib and statsmodels.
 
-## 2.5 - Cold waves forecasting
+## Cold waves forecasting
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to estimate the occurrences of cold waves in the future, we applied two different approaches: (1) use of historical data from IAC weather station to model future climate data; (2) use of data from the ETA regionalized model for geographic coordinates near IAC.
 
@@ -106,20 +106,30 @@ Google Colab | https://colab.research.google.com | Jupyter notebooks environment
 
 A discussão dos resultados também pode ser feita aqui na medida em que os resultados são apresentados ou em seção independente. Aspectos importantes a serem discutidos: É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?>
 ~~~
-## 3.1 Stratified statistical analysis
+## Stratified statistical analysis
 
 The analysis can be found at the [notebook](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average.ipynb)
 
-### 3.1.1 - Young (<20 years)
+### Young (<20 years)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclusively the female group showed significant differences for our analysis, being them on lags 2, 7 and 9. Intriguingly, the difference between the group on cold waves and the control showed peculiar results, suggesting that the group under cold waves has lower number of people with LDL-C concentrations above reference value when compared to the control group: -11.42%, -7.43% and -8.17% for lags 2, 7 and 9 respectively. Numerous mechanisms of lipid transport and metabolism may be involved. It is known that children and adolescents undergo considerable sex-specific changes during physical growth and sexual maturation and differ significantly between pubertal stages. This phase is marked by metabolic instability with large hormonal fluctuations in growth and sexual maturation, directly affecting lipid and lipoprotein concentrations (17). It is likely that this group is not influenced by thermal stress under cold waves, but there is nothing clear in the literature to corroborate these findings.
 
-### 3.1.2 - Adults (20-65 years) 
+| SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
+|:-:	|:-:	|-	|-	|-	|-	|-	|-	|
+| Under 20 female 	| 2 	| 25.58 	| 83 	| 37.00 	| 18771  	| -11.42 	| 0.017 	|
+| Under 20 female 	| 7 	| 29.57 	| 106 	| 37.00 	| 18771 	| -7.43 	| 0.012 	|
+| Under 20 female 	| 9 	| 28.82 	| 99 	| 37.00 	| 18771 	| -8.17 	| 0.021 	|
+
+### Adults (20-65 years) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Significant difference was found only for lag 2. This indicates that the physiological response of the group had greater proportions two days after the beginning of the wave. The group under cold waves showed a higher number of people (3.32% more) with LDL-C concentrations above reference value, when compared to the control group.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We emphasize that only the female group presented a significant difference in our analysis, showing that they are more susceptible to cold waves. The possible mechanism behind these findings is related to the cardioprotective function of testosterone present in higher concentrations in male group. Testosterone levels are inversely correlated with LDL-C and recent epidemiological studies indicate that low serum testosterone levels are associated with more atherosclerotic and CVD events (18,19).
 
-### 3.1.3 - Elderly (>65 years) 
+| SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
+|:-:	|:-:	|-	|-	|-	|-	|-	|-	|
+| Between 20 and 65 female 	| 2 	| 46.88 	| 879 	| 43.56 	| 157878 	| 3.32 	| 0.004 	|
+
+### Elderly (>65 years) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For females, significant difference, 9.27%, 7.39% and 4.06%, was found for lags 0, 2 and 7, respectively. These findings indicate that the physiological outcomes in response to thermal stress caused by the cold wave start simultaneously. It is worth mentioning that the physiological response continues to happen until the seventh day after the beginning of the cold wave. The male group exhibits significant difference only for lag 4.
 
@@ -129,13 +139,19 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It should be emphasized that with advancing age, the metabolism reduces its plasticity and the ability to maintain homeostasis in response to climatic variations (24,25), calling attention and highlighting possible risk groups, the elderly women.
 
-## 3.2 Forecasting of Cold waves
+| SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
+|:-:	|:-:	|-	|-	|-	|-	|-	|-	|
+| Over 65 female 	| 0 	| 52.76 	| 253 	| 43.49 	| 52007 	| 9.27 	| 0.000 	|
+| Over 65 female 	| 2 	| 50.89 	| 228 	| 43.49 	| 52007 	| 7.39 	| 0.016 	|
+| Over 65 female 	| 7 	| 47.55 	| 290 	| 43.49 	| 52007 	| 4.06 	| 0.026 	|
 
-### 3.2.1 Modeling historical data from IAC
+## Forecasting of Cold waves
 
-### 3.2.2 ETA regionalized model
+### Modeling historical data from IAC
 
-## 3.3 - Additional considerations
+### ETA regionalized model
+
+## Additional considerations
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changes in lipid concentrations in the cold are often associated with the difference in energy intake from food in different seasons. However, this is a reductionist simplification, since the influence of dietary cholesterol on cholesterolemia is complex (24). Human beings produce cholesterol endogenously and about 25% of serum cholesterol comes from diet and the rest from cell biosynthesis (26–28).
 
