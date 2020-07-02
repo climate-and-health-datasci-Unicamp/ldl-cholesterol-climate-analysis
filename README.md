@@ -190,3 +190,81 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 # Future research
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Based on our findings, some future research that could be done is to improve the climate model based on historical data by modeling the noise of the time series; to use a predictive model to estimate the impact of cold waves in the LDL-C concentrations; and to reproduce this analysis for other lipid parameters.
+
+# References
+1. M do MA. Plano Nacional de Adaptação à Mudança do Clima. Volume 1 - Estratégia Geral [Internet]. Vol. I. 2016. 46 p. Available from: http://www.mma.gov.br/images/arquivo/80182/PNA_Volume I.pdf
+
+2. Field CB, Barros V, Stocker TF, Dahe Q, Jon Dokken D, Ebi KL, et al. Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation [Internet]. Field CB, Barros V, Stocker TF, Dahe Q, editors. Vol. 9781107025, Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation: Special Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press; 2012. 1–582 p. Available from: http://ebooks.cambridge.org/ref/id/CBO9781139177245
+
+3. WHO WHO. Climate change and health [Internet]. 2018. Available from: https://www.who.int/en/news-room/fact-sheets/detail/climate-change-and-health
+
+4. Watts N, Amann M, Ayeb-Karlsson S, Belesova K, Bouley T, Boykoff M, et al. The Lancet Countdown on health and climate change: from 25 years of inaction to a global transformation for public health. Lancet [Internet]. 2018 Feb;391(10120):581–630. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0140673617324649
+
+5. Bhatnagar A. Environmental Determinants of Cardiovascular Disease. Circ Res [Internet]. 2017 Jul 7;121(2):162–80. Available from: https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.117.306458
+
+6.Ribeiro AG, Cotta RMM, Ribeiro SMR. A promoção da saúde e a prevenção integrada dos fatores de risco para doenças cardiovasculares. Cien Saude Colet [Internet]. 2012 Jan;17(1):7–17. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232012000100002&lng=pt&tlng=pt
+
+7. Mc Namara K, Alzubaidi H, Jackson JK. Cardiovascular disease as a leading cause of death: how are pharmacists getting involved? Integr Pharm Res Pract [Internet]. 2019 Feb;Volume 8:1–11. Available from: https://www.dovepress.com/cardiovascular-disease-as-a-leading-cause-of-death-how-are-pharmacists-peer-reviewed-article-IPRP
+
+8. Gasparrini A, Guo Y, Hashizume M, Lavigne E, Zanobetti A, Schwartz J, et al. Mortality risk attributable to high and low ambient temperature: a multicountry observational study. Lancet [Internet]. 2015 Jul;386(9991):369–75. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0140673614621140
+
+9. Xu B, Liu H, Su N, Kong G, Bao X, Li J, et al. Association between winter season and risk of death from cardiovascular diseases: a study in more than half a million inpatients in Beijing, China. BMC Cardiovasc Disord [Internet]. 2013 Dec 30;13(1):93. Available from: http://bmccardiovascdisord.biomedcentral.com/articles/10.1186/1471-2261-13-93
+
+10. Rocklöv J, Forsberg B, Ebi K, Bellander T. Susceptibility to mortality related to temperature and heat and cold wave duration in the population of Stockholm County, Sweden. Glob Health Action [Internet]. 2014 Dec 12;7(1):22737. Available from: https://www.tandfonline.com/doi/full/10.3402/gha.v7.22737
+
+11.	Ma X, Yan H, Zhang H, Wang M, Zhang Q, Zhou X. Progress in the seasonal variations of blood lipids: a mini-review. Lipids Health Dis [Internet]. 2020 Dec 25;19(1):108. Available from: https://lipidworld.biomedcentral.com/articles/10.1186/s12944-020-01237-3
+
+12. Marti-Soler H, Gubelmann C, Aeschbacher S, Alves L, Bobak M, Bongard V, et al. Seasonality of cardiovascular risk factors: an analysis including over 230 000 participants in 15 countries. Heart. 2014;100(19):1517–23.
+
+13. Faludi A, Izar M, Saraiva J, Chacra A, Bianco H, Afiune Neto A, et al. ATUALIZAÇÃO DA DIRETRIZ BRASILEIRA DE DISLIPIDEMIAS E PREVENÇÃO DA ATEROSCLEROSE - 2017. Arq Bras Cardiol [Internet]. 2017;109(1):76. Available from: http://www.gnresearch.org/doi/10.5935/abc.20170121
+
+14. Abdullah SM, Defina LF, Leonard D, Barlow CE, Radford NB, Willis BL, et al. Long-Term Association of Low-Density Lipoprotein Cholesterol With Cardiovascular Mortality in Individuals at Low 10-Year Risk of Atherosclerotic Cardiovascular Disease. Circulation [Internet]. 2018 Nov 20;138(21):2315–25. Available from: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.034273
+
+15. Baigent C, Blackwell L, Emberson J, Holland LE, Reith C, Bhala N, et al. Efficacy and safety of more intensive lowering of LDL cholesterol: a meta-analysis of data from 170 000 participants in 26 randomised trials. Lancet [Internet]. 2010 Nov;376(9753):1670–81. Available from: http://dx.doi.org/10.1016/S0140-6736(10)61350-5
+
+16.  Zhou X, Lin H, Zhang S, Ren J, Wang Z, Zhang Y, et al. Effects of climatic factors on plasma lipid levels: A 5-year longitudinal study in a large Chinese population. J Clin Lipidol [Internet]. 2016 Sep;10(5):1119–28. Available from: http://dx.doi.org/10.1016/j.jacl.2016.06.009
+
+17.  Schienkiewitz A, Truthmann J, Ernert A, Wiegand S, Schwab KO, Scheidt-Nave C. Age, maturation and serum lipid parameters: findings from the German Health Survey for Children and Adolescents. BMC Public Health [Internet]. 2019 Dec 3;19(1):1627. Available from: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-019-7901-z
+
+18. Elagizi A, Köhler TS, Lavie CJ. Testosterone and Cardiovascular Health. Mayo Clin Proc [Internet]. 2018 Jan;93(1):83–100. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0025619617308248
+
+19. Palmisano BT, Zhu L, Eckel RH, Stafford JM. Sex differences in lipid and lipoprotein metabolism. Mol Metab [Internet]. 2018;15(May):45–55. Available from: https://doi.org/10.1016/j.molmet.2018.05.008
+
+20.  	Menna-Barreto L, Wey D. Ontogênese do sistema de temporização: a construção e as reformas dos ritmos biológicos ao longo da vida humana. Psicol USP [Internet]. 2007 Jun;18(2):133–53. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-65642007000200008&lng=pt&tlng=pt
+
+21. Aires M de M. Fisiologia do Envelhecimento Humano. In: Fisiologia. 4th ed. Rio de Janeiro-RJ: Guanabara Koogan; 2012. p. 1270–9.
+
+22. Ding EL, Song Y, Malik VS, Liu S. Sex Differences of Endogenous Sex Hormones and Risk of Type 2 Diabetes. JAMA [Internet]. 2006 Mar 15;295(11):1288. Available from: http://jama.jamanetwork.com/article.aspx?doi=10.1001/jama.295.11.1288
+
+23. Laughlin GA, Barrett-Connor E, Bergstrom J. Low Serum Testosterone and Mortality in Older Men. J Clin Endocrinol Metab [Internet]. 2008 Jan;93(1):68–75. Available from: https://academic.oup.com/jcem/article-lookup/doi/10.1210/jc.2007-1792
+
+24. Goggins WB, Woo J, Ho S, Chan EYY, Chau PH. Weather, season, and daily stroke admissions in Hong Kong. Int J Biometeorol [Internet]. 2012 Sep 14;56(5):865–72. Available from: http://link.springer.com/10.1007/s00484-011-0491-9
+
+25. Gamble JL, Hurley BJ, Schultz PA, Jaglom WS, Krishnan N, Harris M. Climate Change and Older Americans: State of the Science. Environ Health Perspect [Internet]. 2013 Jan;121(1):15–22. Available from: https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205223
+
+26.	McNamara DJ, Kolb R, Parker TS, Batwin H, Samuel P, Brown CD, et al. Heterogeneity of cholesterol homeostasis in man. Response to changes in dietary fat quality and cholesterol quantity. J Clin Invest [Internet]. 1987 Jun 1;79(6):1729–39. Available from: http://www.jci.org/articles/view/113013
+
+27. Lordan R, Tsoupras A, Mitra B, Zabetakis I. Dairy Fats and Cardiovascular Disease: Do We Really Need to Be Concerned? Foods [Internet]. 2018 Mar 1;7(3):29. Available from: http://www.mdpi.com/2304-8158/7/3/29
+
+28. Santosa S, Varady KA, AbuMweis S, Jones PJH. Physiological and therapeutic factors affecting cholesterol metabolism: Does a reciprocal relationship between cholesterol absorption and synthesis really exist? Life Sci. 2007;80(6):505–14.
+
+29. Dong M, Yang X, Lim S, Cao Z, Honek J, Lu H, et al. Cold Exposure Promotes Atherosclerotic Plaque Growth and Instability via UCP1-Dependent Lipolysis. Cell Metab [Internet]. 2013 Jul;18(1):118–29. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1550413113002477
+
+30. Hoeke G, Nahon KJ, Bakker LEH, Norkauer SSC, Dinnes DLM, Kockx M, et al. Short-term cooling increases serum triglycerides and small high-density lipoprotein levels in humans. J Clin Lipidol [Internet]. 2017 Jul;11(4):920-928.e2. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1933287417302556
+
+31. Dados gerados pelo CPTEC/INPE e disponibilizados na Plataforma PROJETA Available from: https://projeta.cptec.inpe.br/.
+
+32. Chou, S.C, Lyra, A. , Mourão, C. , Dereczynski, C. , Pilotto, I. , Gomes, J. , Bustamante, J. , Tavares, P. , Silva, A. , Rodrigues, D. , Campos, D. , Chagas, D. , Sueiro, G. , Siqueira, G. , Nobre, P. and Marengo, J. (2014) Evaluation of the Eta Simulations Nested in Three Global Climate Models. American Journal of Climate Change, 3, 438-454. doi:10.4236/ajcc.2014.35039. http://www.scirp.org/journal/PaperInformation.aspx?PaperID=52887#.VakHg_lViko.
+
+33.	Chou, S.C, Lyra, A. , Mourão, C. , Dereczynski, C. , Pilotto, I. , Gomes, J. , Bustamante, J. , Tavares, P. , Silva, A. , Rodrigues, D. , Campos, D. , Chagas, D. , Sueiro, G. , Siqueira, G. and Marengo, J. (2014) Assessment of Climate Change over South America under RCP 4.5 and 8.5 Downscaling Scenarios. American Journal of Climate Change,3, 512-527. doi: 10.4236/ajcc.2014.35043. http://www.scirp.org/journal/PaperInformation.aspx?PaperID=52877#.VakIh_lVikp
+
+34.	Lyra, A., Tavares, P., Chou, S.C., Sueiro, G., Dereczynski, C.P., Sondermann, M., Silva, A., Marengo, J., Giarolla, A. 2017. Climate change projections over three metropolitan regions in Southeast Brazil using the non-hydrostatic Eta regional climate model at 5-km resolution Theor Appl Climatol. doi:10.1007/s00704-017-2067-z. https://link.springer.com/article/10.1007/s00704-017-2067-z
+
+35.	Terceira Comunicação Nacional do Brasil à Convenção-Quadro das Nações Unidas sobre Mudança do Clima
+          Executive Summary: http://unfccc.int/resource/docs/natc/branc3es.pdf
+                       Volume 1: http://unfccc.int/resource/docs/natc/branc3v1.pdf
+                       Volume 2: http://unfccc.int/resource/docs/natc/branc3v2.pdf
+                       Volume 3: http://unfccc.int/resource/docs/natc/branc3v3.pdf
+
+ 
+
