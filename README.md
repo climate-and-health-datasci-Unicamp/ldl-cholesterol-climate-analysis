@@ -161,8 +161,6 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After computation of cold waves using the projections of daily temperature data obtained from ETA regionalized climate (2019 - 2050), the annual cold wave metrics were calculated (CWN, CWD and CWF). Those metrics are presented in the following figures, along with the cold wave metrics from 2008 - 2018 in order to provide a comparison between those periods. Analysing the metrics, we can observe longer periods with an absence of cold waves (12 years, 2017 - 2028 and 8 years, 2035 - 2042) in comparison to the beginning of the time series. There is also a reduction in the number of cold waves and in the total sum of days under cold waves along the years. The duration of cold waves is higher in the first years of the series (2010 and 2011) and then it becomes stable. In summary, our results show that in the future there might be a reduction in the frequency and the number of cold waves.
 
-![image](https://drive.google.com/uc?export=view&id=1wrwifkCXWkeC3M38U6qYEY2iHLQFfNop)
-
 ![image](https://drive.google.com/uc?export=view&id=18Pc7f_mWk0f_UI9VsBPCpp11hQAcpDtx)
 
 
@@ -202,7 +200,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 5. Bhatnagar A. Environmental Determinants of Cardiovascular Disease. Circ Res [Internet]. 2017 Jul 7;121(2):162–80. Available from: https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.117.306458
 
-6.Ribeiro AG, Cotta RMM, Ribeiro SMR. A promoção da saúde e a prevenção integrada dos fatores de risco para doenças cardiovasculares. Cien Saude Colet [Internet]. 2012 Jan;17(1):7–17. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232012000100002&lng=pt&tlng=pt
+6. Ribeiro AG, Cotta RMM, Ribeiro SMR. A promoção da saúde e a prevenção integrada dos fatores de risco para doenças cardiovasculares. Cien Saude Colet [Internet]. 2012 Jan;17(1):7–17. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1413-81232012000100002&lng=pt&tlng=pt
 
 7. Mc Namara K, Alzubaidi H, Jackson JK. Cardiovascular disease as a leading cause of death: how are pharmacists getting involved? Integr Pharm Res Pract [Internet]. 2019 Feb;Volume 8:1–11. Available from: https://www.dovepress.com/cardiovascular-disease-as-a-leading-cause-of-death-how-are-pharmacists-peer-reviewed-article-IPRP
 
@@ -230,7 +228,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 19. Palmisano BT, Zhu L, Eckel RH, Stafford JM. Sex differences in lipid and lipoprotein metabolism. Mol Metab [Internet]. 2018;15(May):45–55. Available from: https://doi.org/10.1016/j.molmet.2018.05.008
 
-20.  	Menna-Barreto L, Wey D. Ontogênese do sistema de temporização: a construção e as reformas dos ritmos biológicos ao longo da vida humana. Psicol USP [Internet]. 2007 Jun;18(2):133–53. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-65642007000200008&lng=pt&tlng=pt
+20. Menna-Barreto L, Wey D. Ontogênese do sistema de temporização: a construção e as reformas dos ritmos biológicos ao longo da vida humana. Psicol USP [Internet]. 2007 Jun;18(2):133–53. Available from: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-65642007000200008&lng=pt&tlng=pt
 
 21. Aires M de M. Fisiologia do Envelhecimento Humano. In: Fisiologia. 4th ed. Rio de Janeiro-RJ: Guanabara Koogan; 2012. p. 1270–9.
 
@@ -261,10 +259,14 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 34.	Lyra, A., Tavares, P., Chou, S.C., Sueiro, G., Dereczynski, C.P., Sondermann, M., Silva, A., Marengo, J., Giarolla, A. 2017. Climate change projections over three metropolitan regions in Southeast Brazil using the non-hydrostatic Eta regional climate model at 5-km resolution Theor Appl Climatol. doi:10.1007/s00704-017-2067-z. https://link.springer.com/article/10.1007/s00704-017-2067-z
 
 35.	Terceira Comunicação Nacional do Brasil à Convenção-Quadro das Nações Unidas sobre Mudança do Clima
-          Executive Summary: http://unfccc.int/resource/docs/natc/branc3es.pdf
-                       Volume 1: http://unfccc.int/resource/docs/natc/branc3v1.pdf
-                       Volume 2: http://unfccc.int/resource/docs/natc/branc3v2.pdf
-                       Volume 3: http://unfccc.int/resource/docs/natc/branc3v3.pdf
+
+Executive Summary: http://unfccc.int/resource/docs/natc/branc3es.pdf
+
+Volume 1: http://unfccc.int/resource/docs/natc/branc3v1.pdf
+
+Volume 2: http://unfccc.int/resource/docs/natc/branc3v2.pdf
+
+Volume 3: http://unfccc.int/resource/docs/natc/branc3v3.pdf
 
  
 
