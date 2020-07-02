@@ -45,11 +45,11 @@
 
 
 # Research Question
-**Question:** Does cold waves increase LDL-C levels?
+**Question:** Do cold waves increase LDL-C levels?
 
-**Null Hypothesis:** Cold waves do not increases LDL-C levels.
+**Null Hypothesis:** Cold waves do not increase LDL-C levels.
 
-**Hypothesis:** Cold waves increases LDL-C levels.
+**Hypothesis:** Cold waves increase LDL-C levels.
 
 # Objective
 To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018.
