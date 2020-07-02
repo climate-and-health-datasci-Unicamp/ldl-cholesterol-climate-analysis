@@ -52,7 +52,7 @@
 **Hypothesis:** Cold waves increase LDL-C levels.
 
 # Objective
-To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018.
+To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018. Our secondary aim was to predict future cold waves.
 
 # Resources
 
@@ -60,11 +60,11 @@ To assess the impact of cold waves on LDL-C concentrations in patients who sough
 
 Database | Web Address | Description and Usage
 ----- | ----- | -----
-Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations data from LMC-Campinas
+Campinas Municipal Laboratory | https://bit.ly/CML-database | Database with LDL-c concentrations data from LMC-Campinas (2008-2018)
 Agronomic Institute of Campinas | https://bit.ly/cold_wave_IAC | Database with cold waves using IAC data
 Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | Database with heat waves using IAC data
-Projections from ETA | https://bit.ly/ETA_TMIN | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
-Projections from ETA | https://bit.ly/ETA_TMAX | `<Descrição da Base 2 e para que ela foi usada no projeto.>`
+Projections from ETA | https://bit.ly/ETA_TMIN | Database with predicted minimum temperatures from PROJETA (2019 - 2050) - ETA 5km RCP4.5, sudesteD2-BR, HADGEM2-ES 
+Projections from ETA | https://bit.ly/ETA_TMAX | Database with predicted maximum temperatures from PROJETA (2019 - 2050) - ETA 5km RCP4.5, sudesteD2-BR, HADGEM2-ES
 
 ## Tools
 
