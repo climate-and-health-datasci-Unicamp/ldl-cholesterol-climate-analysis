@@ -18,9 +18,9 @@
 
 <sup>a</sup> *Center for Meteorological and Climatic Research Applied to Agriculture - UNICAMP, Brasil*
 
-<sup>b</sup> *Department of Computer Engineering and Industrial Automation - FEEC/Unicamp, Brasil*
+<sup>b</sup> *Department of Computer Engineering and Industrial Automation - FEEC/UNICAMP, Brasil*
 
-<sup>c</sup> *Department of clinical pathology - FCM/Unicamp, Brasil*
+<sup>c</sup> *Department of clinical pathology - FCM/UNICAMP, Brasil*
 
 
 # Project Video
