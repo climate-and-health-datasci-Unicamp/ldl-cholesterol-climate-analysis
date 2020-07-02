@@ -148,6 +148,7 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 
 | SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
 |:-:	|:-:	|-	|-	|-	|-	|-	|-	|
+| Over 65 male 	| 4 	| 47.26 	| 87 	| 35.81 	| 40448 	| 11.45 	| 0.025 	|
 | Over 65 female 	| 0 	| 52.76 	| 253 	| 43.49 	| 52007 	| 9.27 	| 0.000 	|
 | Over 65 female 	| 2 	| 50.89 	| 228 	| 43.49 	| 52007 	| 7.39 	| 0.016 	|
 | Over 65 female 	| 7 	| 47.55 	| 290 	| 43.49 	| 52007 	| 4.06 	| 0.026 	|
