@@ -1,5 +1,6 @@
-# Como ondas de frio influenciam os níveis de colesterol ldl?
 # How cold waves influence ldl cholesterol levels?
+# Como ondas de frio influenciam os níveis de colesterol ldl?
+
 
 # Abstract 
 
@@ -121,8 +122,11 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 ### 3.1.3 - Elderly (>65 years) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For females, significant difference, 9.27%, 7.39% and 4.06%, was found for lags 0, 2 and 7, respectively. These findings indicate that the physiological outcomes in response to thermal stress caused by the cold wave start simultaneously. It is worth mentioning that the physiological response continues to happen until the seventh day after the beginning of the cold wave. The male group exhibits significant difference only for lag 4.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; By aging the deterioration of the organism damages several functions necessary for the survival and adaptation to the environment and its oscillations (20).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In addition to functional limitations, such as a decline in muscle strength, coordination and cognitive function due to illness, chronic illness or injury, changes in concentrations of growth hormone, adrenocorticotropic, thyroid-stimulating, dehydroepiandrosterone and aldosterone hormones occur; there is also loss of skeletal striated muscles that may reduce basal metabolic rate in men and women (21). Ovarian secretion of estrogen in women, and to a lesser extent, of androgen, decrease abruptly from the sixth decade of life; also, from the 75 years of age, serum concentrations of follicle stimulating hormone and luteinizing hormone gradually decline (21,22). For males, the testicular function gradually declines with increasing age, with reduction in concentrations of serum and total and free testosterone (21,23).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It should be emphasized that with advancing age, the metabolism reduces its plasticity and the ability to maintain homeostasis in response to climatic variations (24,25), calling attention and highlighting possible risk groups, the elderly women.
 
 ## 3.2 Forecasting of Cold waves
@@ -134,7 +138,9 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 ## 3.3 - Additional considerations
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Changes in lipid concentrations in the cold are often associated with the difference in energy intake from food in different seasons. However, this is a reductionist simplification, since the influence of dietary cholesterol on cholesterolemia is complex (24). Human beings produce cholesterol endogenously and about 25% of serum cholesterol comes from diet and the rest from cell biosynthesis (26–28).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Several mechanisms are involved in the differences in lipid concentration. Exposure to cold causes physiological changes, such as adaptive thermogenesis. This mechanism promotes energy dissipation in the form of heat by external stimuli, being involved in the energy balance and in the regulation of body temperature. In short, the energy generated in the mitochondria during the Krebs cycle gains an “alternative path”, preventing the generation of ATP (adenosine triphosphate) and allowing this energy to be dissipated in heat (29,30). This regulatory mechanism is extremely efficient, but it triggers high metabolic rates that can adversely modify lipid and lipoprotein concentrations, such as LDL-C (29).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The impact of cold waves on LDL-C can influence the increase in cardiovascular risk in colder months (12) and can also influence the treatment of patients who have been diagnosed with dyslipidemia close to periods that have cold waves, the patient can be classified as Normal or Pathological if his lipid profile is evaluated during a cold wave. This can cause additional costs to the Health System unnecessarily.
 
 
