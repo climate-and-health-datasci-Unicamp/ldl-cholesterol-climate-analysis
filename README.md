@@ -1,20 +1,26 @@
 # How cold waves influence ldl cholesterol levels?
+# Como ondas de frio influenciam os níveis de colesterol ldl?
+
 
 # Abstract 
 
 **Introduction:** Cardiovascular diseases (CVD) are drastically affected by environmental changes, and this makes it extremely important to understand how its deleterious health effects happen and identify possible vulnerable populations. Higher concentrations of low-density lipoprotein (LDL-C) are found in periods of lower temperatures, and this acts directly in the formation of atherosclerotic plaques. **Objectives:** To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018. Our secondary aim was to predict future cold waves. **Methods:** Results of LDL-C exams, from the Campinas Municipal Laboratory and data of minimum and maximum air temperature (°C) were evaluated. Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles, considering temperature data from 1961 to 1990. The data were stratified into sex and age groups. We separated the data into cold wave and control days and compared LDL-C levels above reference value (LARV) using Mann-Whitney U and probability density plots. We also compared the control group with lags from 0 to 10 to analyse retarded effects of the cold wave. Regarding the prediction of cold waves, we modelled historical weather data using an auto-regressive model and used a regional climate model (ETA)  to predict the occurrences of cold waves in the future. **Results:** In the evaluated period, 9 cold waves were found, which impacted an increase of 3.32% more people with LARV in the group of adult women for lag 2, 9.27% for elderly women in lag 0  and 11.45% for elderly men in lag 4.  Prediction of cold waves using historical data is computationally expensive and inaccurate if time series residues are not considered. Use of a regionalized climate model showed better results. Conclusion: These analyses point to the influence of cold waves on LDL-C concentrations in adult women and also in elderly men and women. Cold waves tend to be less frequent in the future.
-
-# Como ondas de frio influenciam os níveis de colesterol ldl?
 
 # Resumo
 
 **Introdução:** As doenças cardiovasculares (DCV) são drasticamente afetadas pelas mudanças ambientais, e isso torna extremamente importante entender como seus efeitos deletérios à saúde acontecem e identificar possíveis populações vulneráveis. Maiores concentrações de lipoproteína de baixa densidade (LDL-C) são encontradas em períodos de temperaturas mais baixas, e isso atua diretamente na formação de placas ateroscleróticas. **Objetivo:** Avaliar o impacto das ondas de frio nas concentrações de LDL-C em pacientes que procuraram atendimento médico em Campinas-SP, de 2008 a 2018. Estabelecemos como objetivo secundário a predição de ondas de frio. **Métodos:** Foram avaliados os resultados dos exames de LDL-C, do Laboratório Municipal de Campinas, e os dados de temperatura mínima (Tmin) e máxima (Tmax) do ar (° C). Ondas de frio foram definidas como pelo menos 3 dias consecutivos com Tmin e Tmax abaixo de seus percentis 10, considerando dados de temperatura de 1961 a 1990. Os dados foram estratificados em sexo e faixa etária. Separamos os dados em dias de onda de frio e dias controle e comparamos os níveis de LDL-C acima do valor de referência (AVR), usando o teste U de Mann-Whitney e gráficos de densidade de probabilidade. Também comparamos o grupo controle com efeito lag de 0 a 10 dias para analisar os efeitos de atraso da onda de frio. Em relação à predição das ondas de frio, foi feita uma modelagem dos dados climáticos históricos por meio de um modelo auto-regressivo. Além disso, utilizamos um modelo climático regional (ETA) para prever as próximas ocorrências de ondas de frio. **Resultados:** No período avaliado, foram encontradas 9 ondas de frio, o que impactou em um aumento de 3,32% a mais de pessoas com os níveis de LDL-C AVR no grupo de mulheres adultas para o lag 2, 9,27% para idosas no lag 0 e 11,45% para homens idosos no lag 4.  Predição de ondas de frio utilizando dados históricos tem um elevado custo computacional e pode ser ineficaz caso os resíduos da série temporal não sejam considerados. O modelo climático regionalizado mostrou melhores resultados. Conclusão: Essas análises apontam para a influência das ondas de frio nas concentrações de LDL-C em mulheres adultas e também em homens e mulheres idosos. As ondas de frio tendem a ser menos frequentes no futuro.
 
 # Team
-* [Daniela Souza de Oliveira](https://github.com/Danielaso) - 155099
-* [Júlia Perassolli De Lázari](https://github.com/juliaplazari) - 200298
-* [Thiago Ribas Bella](https://www.linkedin.com/in/thiago-ribas-bella-016380149/) - 157414
-* [Welington Corozolla](https://www.linkedin.com/in/welington-corozolla-7b820b92/) - 188894
+* [Daniela Souza de Oliveira](https://github.com/Danielaso)<sup>a, b</sup> - 155099
+* [Júlia Perassolli De Lázari](https://github.com/juliaplazari)<sup>b</sup> - 200298
+* [Thiago Ribas Bella](https://www.linkedin.com/in/thiago-ribas-bella-016380149/)<sup>b, c</sup> - 157414
+* [Welington Corozolla](https://www.linkedin.com/in/welington-corozolla-7b820b92/)<sup>c</sup> - 188894
+
+<sup>a</sup> *Center for Meteorological and Climatic Research Applied to Agriculture - UNICAMP, Brasil*
+
+<sup>b</sup> *Department of Computer Engineering and Industrial Automation - FEEC/Unicamp, Brasil*
+
+<sup>c</sup> *Department of clinical pathology - FCM/Unicamp, Brasil*
 
 
 # Project Video
@@ -123,7 +129,6 @@ The analysis can be found at the [notebook](https://github.com/climate-and-healt
 ### Adults (20-65 years) 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Significant difference was found only for lag 2. This indicates that the physiological response of the group had greater proportions two days after the beginning of the wave. The group under cold waves showed a higher number of people (3.32% more) with LDL-C concentrations above reference value, when compared to the control group.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We emphasize that only the female group presented a significant difference in our analysis, showing that they are more susceptible to cold waves. The possible mechanism behind these findings is related to the cardioprotective function of testosterone present in higher concentrations in male group. Testosterone levels are inversely correlated with LDL-C and recent epidemiological studies indicate that low serum testosterone levels are associated with more atherosclerotic and CVD events (18,19).
 
 | SUBSET 	| lag 	| Cold 	| n1 	| Nor. 	| n2 	| Diff 	| p  	|
