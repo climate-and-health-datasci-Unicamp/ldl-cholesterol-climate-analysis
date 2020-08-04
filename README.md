@@ -189,7 +189,7 @@ Data processing of ETA model and computation of cold waves can be found at [Futu
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We also intended to analyze the impact of each cold wave, to then relate it with the predictive models, but our data was insufficient to perform such analysis.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We had the intention to conduct a similar analysis to assess the influence of high thermal amplitude on LDL-C concentrations. Days with thermal amplitude above the 90th percentile, based on the historical series, were considered high thermal amplitude days. The results indicated a lower percentage of LARV for days with high thermal amplitude, which was not the expected as it differed from the literature. We concluded that in order to perform a good analysis, we needed to consider more factors (quais? Se puder) and for this reason we chose to focus the analysis only on the cold waves.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We had the intention to conduct a similar analysis to assess the influence of high thermal amplitude on LDL-C concentrations. Days with thermal amplitude above the 90th percentile, based on the historical series, were considered high thermal amplitude days. The results indicated a lower percentage of LARV for days with high thermal amplitude, which was not the expected as it differed from the literature. We concluded that in order to perform a good analysis, we needed to consider more factors and for this reason we chose to focus the analysis only on the cold waves.
 
 # Conclusions
 
