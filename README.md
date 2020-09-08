@@ -1,3 +1,5 @@
+# Project Climate & Health Unicamp - Technical Report 01/2020
+
 # How cold waves influence ldl cholesterol levels?
 
 # Abstract 
@@ -201,6 +203,10 @@ Data processing of ETA model and computation of cold waves can be found at [Futu
 # Future research
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Based on our findings, some future research that could be done is to improve the climate model based on historical data by modeling the noise of the time series; to use a predictive model to estimate the impact of cold waves in the LDL-C concentrations; and to reproduce this analysis for other lipid parameters.
+
+# Acknowledgements
+
+This project was funded by grant #2017/20013-0, São Paulo Research Foundation (FAPESP)
 
 # References
 1. M do MA. Plano Nacional de Adaptação à Mudança do Clima. Volume 1 - Estratégia Geral [Internet]. Vol. I. 2016. 46 p. Available from: http://www.mma.gov.br/images/arquivo/80182/PNA_Volume I.pdf
