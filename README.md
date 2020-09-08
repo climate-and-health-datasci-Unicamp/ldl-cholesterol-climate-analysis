@@ -11,13 +11,13 @@
 **Introdução:** As doenças cardiovasculares (DCV) são drasticamente afetadas pelas mudanças ambientais, e isso torna extremamente importante entender como seus efeitos deletérios à saúde acontecem e identificar possíveis populações vulneráveis. Maiores concentrações de lipoproteína de baixa densidade (LDL-C) são encontradas em períodos de temperaturas mais baixas, e isso atua diretamente na formação de placas ateroscleróticas. **Objetivo:** Avaliar o impacto das ondas de frio nas concentrações de LDL-C em pacientes que procuraram atendimento médico em Campinas-SP, de 2008 a 2018. Estabelecemos como objetivo secundário a predição de ondas de frio. **Métodos:** Foram avaliados os resultados dos exames de LDL-C, do Laboratório Municipal de Campinas, e os dados de temperatura mínima (Tmin) e máxima (Tmax) do ar (°C). Ondas de frio foram definidas como pelo menos 3 dias consecutivos com Tmin e Tmax abaixo de seus percentis 10, considerando dados de temperatura de 1961 a 1990. Os dados foram estratificados em sexo e faixa etária. Separamos os dados em dias de onda de frio e dias controle e comparamos os níveis de LDL-C acima do valor de referência (AVR), usando o teste U de Mann-Whitney e gráficos de densidade de probabilidade. Também comparamos o grupo controle com efeito lag de 0 a 10 dias para analisar os efeitos de atraso da onda de frio. Em relação à predição das ondas de frio, foi feita uma modelagem dos dados climáticos históricos por meio de um modelo auto-regressivo. Além disso, utilizamos um modelo climático regional (ETA) para prever as próximas ocorrências de ondas de frio. **Resultados:** No período avaliado, foram encontradas 9 ondas de frio, o que impactou em um aumento de 3,32% a mais de pessoas com os níveis de LDL-C AVR no grupo de mulheres adultas para o lag 2, 9,27% para idosas no lag 0 e 11,45% para homens idosos no lag 4.  Predição de ondas de frio utilizando dados históricos tem um elevado custo computacional e pode ser ineficaz caso os resíduos da série temporal não sejam considerados. O modelo climático regionalizado mostrou melhores resultados. Conclusão: Essas análises apontam para a influência das ondas de frio nas concentrações de LDL-C em mulheres adultas e também em homens e mulheres idosos. As ondas de frio tendem a ser menos frequentes no futuro.
 
 # Authors
-* [Daniela Souza de Oliveira](https://github.com/Danielaso)<sup>a, b</sup> - 155099
-* [Júlia Perassolli De Lázari](https://github.com/juliaplazari)<sup>b</sup> - 200298
-* [Thiago Ribas Bella](https://www.linkedin.com/in/thiago-ribas-bella-016380149/)<sup>b, c</sup> - 157414
-* [Welington Corozolla](https://www.linkedin.com/in/welington-corozolla-7b820b92/)<sup>c</sup> - 188894
-* [Paula Dornhofer Paro Costa](http://lattes.cnpq.br/4518009815956207)
-* [Ana Maria Heuminski de Avila](http://lattes.cnpq.br/7582420301693448)
-* [Eliana Cotta de Faria](http://lattes.cnpq.br/9697459943018307)
+* [Daniela Souza de Oliveira](https://github.com/Danielaso)<sup>a, b</sup>
+* [Júlia Perassolli De Lázari](https://github.com/juliaplazari)<sup>b</sup>
+* [Thiago Ribas Bella](https://www.linkedin.com/in/thiago-ribas-bella-016380149/)<sup>b, c</sup>
+* [Welington Corozolla](https://www.linkedin.com/in/welington-corozolla-7b820b92/)<sup>c</sup>
+* [Paula Dornhofer Paro Costa](http://lattes.cnpq.br/4518009815956207)<sup>b</sup>
+* [Ana Maria Heuminski de Avila](http://lattes.cnpq.br/7582420301693448)<sup>a</sup>
+* [Eliana Cotta de Faria](http://lattes.cnpq.br/9697459943018307)<sup>c</sup>
 
 <sup>a</sup> *Center for Meteorological and Climatic Research Applied to Agriculture - UNICAMP, Brasil*
 
@@ -26,8 +26,8 @@
 <sup>c</sup> *Department of clinical pathology - FCM/UNICAMP, Brasil*
 
 
-# Project Video
-[Project proposal video](https://drive.google.com/file/d/16P_fglul0e5NVvD1JWwW9koR-nYbb1sx/view)
+<!---# Project Video
+[Project proposal video](https://drive.google.com/file/d/16P_fglul0e5NVvD1JWwW9koR-nYbb1sx/view) --->
 
 # Introduction
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The reports of the Brazilian Panel on Climate Change (PBMC) and the Intergovernmental Panel on Climate Change (IPCC) were unanimous in revealing that South America and Brazil already have records of climate change predicted in climate models (1) and highlight that the changes associated with global warming can alter the frequency, intensity, duration and timing of extreme events, resulting in extreme environmental conditions, even never seen before (2). The World Health Organization (WHO) concluded that these climate changes should cause approximately 250,000 additional deaths per year between 2030 and 2050 (3). 
