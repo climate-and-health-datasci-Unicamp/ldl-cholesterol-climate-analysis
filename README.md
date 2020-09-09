@@ -1,12 +1,12 @@
 # Project Climate & Health Unicamp - Technical Report 01/2020
 
-# How cold waves influence ldl cholesterol levels?
+# How cold waves influence LDL cholesterol levels?
 
 # Abstract 
 
 **Introduction:** Cardiovascular diseases (CVD) are drastically affected by environmental changes, and this makes it extremely important to understand how its deleterious health effects happen and identify possible vulnerable populations. Higher concentrations of low-density lipoprotein (LDL-C) are found in periods of lower temperatures, and this acts directly in the formation of atherosclerotic plaques. **Objectives:** To assess the impact of cold waves on LDL-C concentrations in patients who sought medical attention in Campinas-SP, from 2008 to 2018. Our secondary aim was to predict future cold waves. **Methods:** Results of LDL-C exams, from the Campinas Municipal Laboratory and data of minimum and maximum air temperature (°C) were evaluated. Cold waves were defined as at least 3 consecutive days with Tmin and Tmax below its 10th percentiles, considering temperature data from 1961 to 1990. The data were stratified into sex and age groups. We separated the data into cold wave and control days and compared LDL-C levels above reference value (LARV) using Mann-Whitney U and probability density plots. We also compared the control group with lags from 0 to 10 to analyse retarded effects of the cold wave. Regarding the prediction of cold waves, we modelled historical weather data using an auto-regressive model and used a regional climate model (ETA)  to predict the occurrences of cold waves in the future. **Results:** In the evaluated period, 9 cold waves were found, which impacted an increase of 3.32% more people with LARV in the group of adult women for lag 2, 9.27% for elderly women in lag 0  and 11.45% for elderly men in lag 4.  Prediction of cold waves using historical data is computationally expensive and inaccurate if time series residues are not considered. Use of a regionalized climate model showed better results. Conclusion: These analyses point to the influence of cold waves on LDL-C concentrations in adult women and also in elderly men and women. Cold waves tend to be less frequent in the future.
 
-# Como ondas de frio influenciam os níveis de colesterol ldl?
+# Como ondas de frio influenciam os níveis de colesterol LDL?
 
 # Resumo
 
