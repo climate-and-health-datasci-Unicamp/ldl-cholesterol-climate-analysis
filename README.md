@@ -65,7 +65,7 @@ To assess the impact of cold waves on LDL-C concentrations in patients who sough
 
 Database | Web Address | Description and Usage
 ----- | ----- | -----
-Campinas Municipal Laboratory | <!---https://bit.ly/CML-database --->| Database with LDL-c concentrations data from LMC-Campinas (2008-2018)
+Campinas Municipal Laboratory | [LDL Database](https://drive.google.com/file/d/1P579PpCjPwAY7vATbi_oX8cFJSkcbGGS/view?usp=sharing)| Database with LDL-c concentrations data from LMC-Campinas (2008-2018)
 Agronomic Institute of Campinas | https://bit.ly/cold_wave_IAC | Database with cold waves using IAC data (1961 - 2018)
 Agronomic Institute of Campinas | https://bit.ly/heat_wave_IAC | Database with heat waves using IAC data (1961 - 2018)
 Projections from ETA | https://bit.ly/ETA_TMIN | Database with predicted minimum temperatures from PROJETA (2019 - 2050) - ETA 5km RCP4.5, sudesteD2-BR, HADGEM2-ES 
@@ -116,7 +116,7 @@ We used a Python library to compute cold waves: [Extreme_Waves.py](https://drive
 
 ## Stratified statistical analysis
 
-The analysis can be found at the [03_LDL_above_average](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average.ipynb).
+The analysis can be found at the [03_LDL_above_average](https://github.com/climate-and-health-datasci-Unicamp/ldl-cholesterol-climate-analysis/blob/master/notebooks/03_LDL_above_average_git.ipynb).
 
 ### Young (<20 years)
 
